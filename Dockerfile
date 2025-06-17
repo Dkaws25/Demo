@@ -10,4 +10,5 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["tail", "-f", "/dev/null"]
+
