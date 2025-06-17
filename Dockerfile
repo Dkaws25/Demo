@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["echo", "Hello World"]
+CMD ["nginx", "-g", "daemon off;"]
